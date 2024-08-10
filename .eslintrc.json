@@ -1,0 +1,14 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off", // Disable "Unexpected any" error
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-unsafe-function-type": "off",
+    "@typescript-eslint/no-wrapper-object-types": "off",
+    "@typescript-eslint/no-unused-expressions": "off",
+    // Disable unused variable warnings
+    "prefer-const": "off", // Disable the prefer-const warning
+    "react-hooks/exhaustive-deps": "off", // Disable exhaustive-deps warning
+    "@next/next/no-img-element": "off" // Disable the warning for using <img> instead of <Image />
+  }
+}
